@@ -12,6 +12,6 @@ export class GetApiService{
 
   apiCall()
   {
-    return this.http.get('/test')
+    return this.http.get('https://blopz390d3.execute-api.us-east-1.amazonaws.com/test')
   }
 }
